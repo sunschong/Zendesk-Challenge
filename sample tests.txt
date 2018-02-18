@@ -1,0 +1,68 @@
+/***************************************************************************
+
+Sample run #1 with correct credentials
+
+****************************************************************************/
+
+C:\Users\Sunshine\Desktop\Personal Projects\Zendesk challenge>python ticketview.py
+
+You are signing into https://schong.zendesk.com
+
+Enter email: sunshinechong@gmail.com
+Enter password: zendeskchallenge
+
+Ticket 1
+
+Subject: velit eiusmod reprehenderit officia cupidatat
+
+Description: Aute ex sunt culpa ex ea esse sint cupidatat aliqua ex consequat sit reprehenderit. Velit labore proident quis culpa ad duis adipisicing laboris voluptate velit incididunt minim consequat nulla. Laboris adipisicing reprehenderit minim tempor officia ullamco occaecat ut laborum.
+
+Aliquip velit adipisicing exercitation irure aliqua qui. Commodo eu laborum cillum nostrud eu. Mollit duis qui non ea deserunt est est et officia ut excepteur Lorem pariatur deserunt.
+
+Tags: ['est', 'incididunt', 'nisi']
+
+
+Ticket 2
+
+Subject: excepteur laborum ex occaecat Lorem
+
+Description: Exercitation amet in laborum minim. Nulla et veniam laboris dolore fugiat aliqua et sit mollit. Dolor proident nulla mollit culpa in officia pariatur officia magna eu commodo duis.
+
+Aliqua reprehenderit aute qui voluptate dolor deserunt enim aute tempor ad dolor fugiat. Mollit aliquip elit aliqua eiusmod. Ex et anim non exercitation consequat elit dolore excepteur. Aliqua reprehenderit non culpa sit consequat cupidatat elit.
+
+Tags: ['amet', 'labore', 'voluptate']
+
+Ticket 3
+
+....
+
+....
+
+Data has been saved to the file 'tickets.txt' and will be opened in notepad.
+The file should be located in your current working directory.
+
+/***************************************************************************
+
+Sample run #2 with incorrect email
+
+****************************************************************************/
+
+C:\Users\Sunshine\Desktop\Personal Projects\Zendesk challenge>python ticketview.py
+
+Enter email: test@gmail.com
+Enter password: zendeskchallenge
+Status: 401 Problem with the request. Exiting.
+
+/***************************************************************************
+
+Sample run #3 with incorrect password
+
+****************************************************************************/
+
+C:\Users\Sunshine\Desktop\Personal Projects\Zendesk challenge>python ticketview.py
+
+You are signing into https://schong.zendesk.com
+
+Enter email: sunshinechong@gmail.com
+Enter password: testing123
+Status: 401 Problem with the request. Exiting.
