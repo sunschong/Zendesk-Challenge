@@ -4,6 +4,7 @@
 This python program will display 100 of your tickets from your Zendesk account. It will be run on the command line of either Mac or Windows operating systems. To run the Ticket Viewer program, download the file ticketview.py. 
 
 # Note 
+{Edit} My subdomain does not work anymore for testing. 
 It is restricted to accessing the subdomain https://schong.zendesk.com only. To access your own domain, you would have to modify the url in ticketview.py to represent the subdomain you want to access (ex. https://{your-subdomain}.zendesk.com/api/v2/tickets.json). You would also need to modify the credentials needed, such as email or password.
 
 # Setup
@@ -20,9 +21,9 @@ Save the file in a directory that you want to work from as you will need to conn
 
 2. Type in the command 'python ticketview.py' without the single quotes. It should tell you the domain you are signing into and prompt for an email. If it says "No such file is found," double check if you are in the directory where ticketview.py is located.
 
-3. Type in 'sunshinechong@gmail.com.' It will then prompt you for a password.
+3. Type in email. It will then prompt you for a password.
 
-4. Enter the password: zendeskchallenge
+4. Enter the password.
 
 5. Wait as it will process the credentials and display the ticket data on the terminal window. The data will also be saved in a txt file called 'tickets.txt' and will be displayed in notepad as well once the program is finished.   
 
